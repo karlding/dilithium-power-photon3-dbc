@@ -1,0 +1,47 @@
+VERSION "HIPBNYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYYY/4/%%%/4/'%**4YYY///"
+
+
+NS_ : 
+	NS_DESC_
+	CM_
+	BA_DEF_
+	BA_
+	VAL_
+	CAT_DEF_
+	CAT_
+	FILTER
+	BA_DEF_DEF_
+	EV_DATA_
+	ENVVAR_DATA_
+	SGTYPE_
+	SGTYPE_VAL_
+	BA_DEF_SGTYPE_
+	BA_SGTYPE_
+	SIG_TYPE_REF_
+	VAL_TABLE_
+	SIG_GROUP_
+	SIG_VALTYPE_
+	SIGTYPE_VALTYPE_
+
+BS_:
+
+BU_: Photon3
+
+
+BO_ 1536 Channel0: 8 Photon3
+ SG_ ArrayVoltage : 0|16@1+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ ArrayCurrent : 16|16@1+ (0.001,0) [0|0] "A" Vector__XXX
+ SG_ BatteryVoltage : 32|16@1+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ UnitTemperature : 48|16@1+ (0.01,0) [0|0] "C" Vector__XXX
+
+BO_ 1537 Channel1: 8 Photon3
+ SG_ ArrayVoltage : 0|16@1+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ ArrayCurrent : 16|16@1+ (0.001,0) [0|0] "A" Vector__XXX
+ SG_ BatteryVoltage : 32|16@1+ (0.01,0) [0|0] "V" Vector__XXX
+ SG_ UnitTemperature : 48|16@1+ (0.01,0) [0|0] "C" Vector__XXX
+
+
+CM_ BU_ Photon3 "";
+CM_ SG_ 1536 BatteryVoltage "";
+CM_ SG_ 1536 UnitTemperature "";
+CM_ SG_ 1537 BatteryVoltage "";
